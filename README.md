@@ -1,3 +1,10 @@
+## Installation
+```
+git clone https://github.com/knrredhelmet/anew.git
+cd anew
+go build anew.go
+```
+
 Here, a file called `things.txt` contains a list of numbers. `newthings.txt` contains a second
 list of numbers, some of which appear in `things.txt` and some of which do not. `anew` is used
 to append the latter to `things.txt`.
